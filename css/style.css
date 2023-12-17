@@ -1,42 +1,85 @@
 :root {
-    --orange:  #fb811e;
-    --green:    #009f4d;
-    --text:     #707070;
-    --title:    #060606;
-  }
-*{
+    --white: #fff;
+    --orange: #fb811e;
+    --green: #009f4d;
+    --text: #707070;
+    --title: #060606;
+
+    /* font */
+    --f_primary: 'Source Sans Pro', sans-serif;
+    --f_secondary: 'Volkhov', serif;
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: 'Source Sans Pro', sans-serif;
+
+body {
+    font-family: var(--f_primary);
     color: var(--text);
     background-color: rgb(255, 255, 255);
 
 }
-a{
+
+a {
     text-decoration: none;
     color: var(--text);
 }
-li{
+
+li {
     list-style: none;
 }
-.logo{
+
+.logo {
     position: relative;
     font-size: 32px;
-    font-family: 'Volkhov', serif;
+    font-family: var(--f_secondary);
     font-weight: 400;
+    color: var(--orange);
 
 }
-.logo i{
+
+.logo i {
     display: block;
     position: absolute;
     top: -10px;
     left: 55px;
     font-size: 20px;
 }
+
+.title {
+    font-family: var(--f_secondary);
+}
+
 /* footer */
+footer{
+    margin-bottom: 80px;
+}
+.footer-item{
+    margin-bottom: 50px;
+}
+.footer-item.contact h3{
+    color: var(--title);
+    font-family: var(--f_secondary);
+}
+.footer-item.introduce .logo a{
+    color: var(--orange);
+}
+
+.footer-item.introduce .license a{
+    color: var(--green);
+    transition: all .5s ease;
+}
+.footer-item.introduce .license a:hover{
+    color: var(--orange);
+}
+
+.footer-item.newsletter .newsletter__title{
+    color: var(--title);
+    font-family: var(--f_secondary);
+}
 .footer-item.newsletter .newsletter__content input{
 
 }
@@ -45,10 +88,32 @@ li{
     color: white;
 }
 .footer-item.newsletter .newsletter__content .list-icon__item i{
-    color: rgb(0, 159, 77);
+    color: var(--green);
     background: rgb(10 191 83 / 8%);;
 }
 .footer-item.newsletter .newsletter__content .list-icon__item:hover i{
     color: var(--orange);
     background-color: rgb(255 201 69 / 19%);;
 }
+
+/* back to top */
+.cd-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    background-color: var(--green);
+    color: white;
+    opacity: 0;
+}
+
+
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+    transition:all .2s ease
+}
+
+
+
