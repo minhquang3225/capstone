@@ -2,6 +2,7 @@
     --white: #fff;
     --orange: #fb811e;
     --green: #009f4d;
+    --grey: #f4f4f4;
     --text: #707070;
     --title: #060606;
 
@@ -49,6 +50,7 @@ li {
     font-size: 20px;
 }
 
+
 .title {
     font-family: var(--f_secondary);
 }
@@ -64,8 +66,15 @@ footer{
     color: var(--title);
     font-family: var(--f_secondary);
 }
+
 .footer-item.introduce .logo a{
     color: var(--orange);
+}
+.footer-item.introduce h3 a{
+    transition: all .5s ease;
+}
+.footer-item.introduce h3 a:hover{
+    color: var(--title);
 }
 
 .footer-item.introduce .license a{
@@ -86,6 +95,10 @@ footer{
 .footer-item.newsletter .newsletter__content button{
     background-color: var(--green);
     color: white;
+    transition: all .5s ease;
+}
+.footer-item.newsletter .newsletter__content button:hover{
+    opacity: .8;
 }
 .footer-item.newsletter .newsletter__content .list-icon__item i{
     color: var(--green);

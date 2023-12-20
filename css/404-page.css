@@ -1,0 +1,67 @@
+.error-404{
+    background-image: url('../img/img3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 100px;
+    padding-top: 130px;
+}
+.error-404 svg {
+    width: 500px;
+    fill: var(--green);
+    font-size: 1em;
+    font-family: var(--f_secondary);
+    font-size: 83px;
+}
+
+.error-404 svg .Calque1_1 {
+    font-size: 1rem;
+}
+.error-404__title{
+    color: var(--title);
+}
+.error-404__form{
+    margin-bottom: 50px;
+}
+.error-404__form *{
+    background-color: var(--grey) !important;
+    color: var(--green);
+}
+.error-404__form button{
+    border-left: none !important;
+}
+.error-404__direct{
+    margin-bottom: 40px;
+    color: var(--title);
+    transition: all .3s ease;
+}
+.error-404__direct:hover{
+    color: var(--green);
+}
+footer {
+    /* display: none; */
+}
+
+@media (max-width: 536px) {
+    .error-404 svg {
+      width: 450px;
+      font-size: 80px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .error-404 svg {
+      width: 360px;
+      font-size: 75;
+    }
+  }
+  
+
+  
+  @media (max-width: 400px) {
+    .error-404 svg {
+      width: 300px;
+      font-size: 70px;
+    }
+  }
