@@ -89,8 +89,8 @@ footer{
     color: var(--title);
     font-family: var(--f_secondary);
 }
-.footer-item.newsletter .newsletter__content input{
-
+.footer-item.newsletter .newsletter__content input:focus{
+    box-shadow: none;
 }
 .footer-item.newsletter .newsletter__content button{
     background-color: var(--green);
