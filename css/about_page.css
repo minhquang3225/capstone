@@ -1,0 +1,6 @@
+.provide__wrapper{
+    margin: 0 100px;
+}
+.provide__wrapper h2{
+    color: var(--title);
+}
