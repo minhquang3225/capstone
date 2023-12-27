@@ -32,16 +32,16 @@
             <div class="container navbar_content">
                 <!-- header - left -->
                 <a class="navbar-brand navbar_left text-center" href="#">
-                    <i class="fa-solid fa-leaf"></i>
+                    <i class="fa fa-leaf"></i>
                     <h1>Farmstead</h1>
                 </a>
                 <!-- header - right -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse navbar_right justify-content-end" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse navbar_right justify-content-end" id="navbarToggleExternalContent">
                     <ul class="navbar-nav">
                         <!-- search -->
                         <li class="nav-item">
@@ -66,10 +66,7 @@
                                 <a class="nav-link p-2 text-center" href="./about_page.html">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link p-2 text-center" href="./services-page.html">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link p-2 text-center" href="#">Blog Posts</a>
+                                <a class="nav-link p-2 text-center" href="./services_page.html">Services</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link p-2 text-center" href="./landing_page.html">Landing Page</a>
@@ -86,6 +83,7 @@
             </div>
         </nav>
     </header>
+    <!-- banner -->
     <main>
         <section class="home_banner position-relative">
             <div class="container-fluid">
@@ -93,15 +91,13 @@
                     <!-- title -->
                     <div class="banner_title col-md-5">
                         <h2>Farm</h2>
-                        <div class="title_content heading">
+                        <div class="title_content">
                             <h1>Welcome to Farmstead where Natural Food is born!</h1>
                             <p>
                                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                                 accusantium doloremque laudantium.
                             </p>
-                            <button class="mt-lg-5 mt-4 text-white">
-                                <a href="./about_page.html">LEARN MORE</a>
-                            </button>
+                            <button>Learn more</button>
                         </div>
                     </div>
                     <!-- carousel -->
@@ -162,7 +158,7 @@
                                     efficitur, dolor eget ex fermentum.
                                 </p>
                                 <button class="mt-lg-5 mt-4">
-                                    <a href="./about_page.html">DISCOVER MORE</a>
+                                    <a href="#">DISCOVER MORE</a>
                                 </button>
                             </div>
                         </div>
@@ -230,13 +226,13 @@
                     <div class="col-md-6 col-lg-4 p-3">
                         <div class="card__item">
                             <div class="card__image">
-                                <a href="./services-page.html">
+                                <a href="#">
                                     <img class="img-fluid" src="./img/service1.jpg" alt="Service Pic 1" />
                                 </a>
                             </div>
                             <div class="card__content">
                                 <span>Natural</span>
-                                <a href="./services-page.html">Agriculture Products</a>
+                                <a href="#">Agriculture Products</a>
                                 <p>
                                     Sed ut perspiciatis unde omnis iste natus sit accusantium
                                     doloremque laudantium, totam rem aperiam
@@ -248,13 +244,13 @@
                     <div class="col-md-6 col-lg-4 p-3">
                         <div class="card__item">
                             <div class="card__image">
-                                <a href="./services-page.html">
+                                <a href="#">
                                     <img class="img-fluid" src="./img/service2.jpg" alt="Service Pic 2" />
                                 </a>
                             </div>
                             <div class="card__content">
                                 <span>Agriculture</span>
-                                <a href="./services-page.html">Fresh Vegetables</a>
+                                <a href="#">Fresh Vegetables</a>
                                 <p>
                                     Sed ut perspiciatis unde omnis iste natus sit accusantium
                                     doloremque laudantium, totam rem aperiam
@@ -266,13 +262,13 @@
                     <div class="col-md-6 col-lg-4 p-3 mx-md-auto">
                         <div class="card__item">
                             <div class="card__image">
-                                <a href="./services-page.html">
+                                <a href="#">
                                     <img class="img-fluid" src="./img/service3.jpg" alt="Service Pic 3" />
                                 </a>
                             </div>
                             <div class="card__content">
                                 <span>Farm</span>
-                                <a href="./services-page.html">Organic Products</a>
+                                <a href="#">Organic Products</a>
                                 <p>
                                     Sed ut perspiciatis unde omnis iste natus sit accusantium
                                     doloremque laudantium, totam rem aperiam
@@ -542,7 +538,7 @@
                                     <p>Customer</p>
                                 </div>
                                 <div class="col-md-8 pe-lg-5 mt-3 mt-lg-0">
-                                    <i class="fa-solid fa-quote-left"></i>
+                                    <i class="fa fa-quote-left"></i>
                                     <blockquote>
                                         <p>
                                             "Lorem ipsum dolor sit amet int consectetur adipisicing
@@ -565,7 +561,7 @@
                                     <p>Customer</p>
                                 </div>
                                 <div class="col-md-8 pe-lg-5 mt-3 mt-lg-0">
-                                    <i class="fa-solid fa-quote-left"></i>
+                                    <i class="fa fa-quote-left"></i>
                                     <blockquote>
                                         <p>
                                             "Lorem ipsum dolor sit amet int consectetur adipisicing
@@ -588,7 +584,7 @@
                                     <p>Customer</p>
                                 </div>
                                 <div class="col-md-8 pe-lg-5 mt-3 mt-lg-0">
-                                    <i class="fa-solid fa-quote-left"></i>
+                                    <i class="fa fa-quote-left"></i>
                                     <blockquote>
                                         <p>
                                             "Lorem ipsum dolor sit amet int consectetur adipisicing
@@ -618,6 +614,8 @@
                     </div>
                     <p class="team__top--right col-12 col-md-6 fs-5 fw-light">Sed ut perspiciatis unde omnis iste natus
                         error sit accusantium
+                    <p class="team__top--right col-12 col-md-6 fs-5 fw-light">Sed ut perspiciatis unde omnis iste natus
+                        error sit accusantium
                         doloremque, eaque ipsa quae ab illo inventore.Sed ut perspiciatis unde omnis iste natus error
                         sit.</p>
                 </div>
@@ -625,7 +623,7 @@
                     <li class="team__bottom--item text-center col mx-auto">
                         <div class="item__wrapper overflow-hidden rounded-2 p-3">
                             <div class="item__image position-relative">
-                                <img class="w-100 object-fit-cover rounded-3" src="./img/image1 (1).jpg" alt="">
+                                <img class="w-100 object-fit-cover rounded-3" src="/img/image1 (1).jpg" alt="">
                                 <div
                                     class="overlay px-3 w-100 h-100 position-absolute top-0 start-0 d-flex flex-column justify-content-between rounded-3">
                                     <div class="content animate__animated animate__slideInDown px-3">
@@ -639,6 +637,7 @@
                                         <i class="fab fa-google-plus    "></i>
                                     </div>
                                 </div>
+
 
                             </div>
                             <div class="item__content">
@@ -674,13 +673,15 @@
                     <li class="team__bottom--item text-center col mx-auto">
                         <div class="item__wrapper overflow-hidden rounded-4 p-3">
                             <div class="item__image position-relative">
-                                <img class="w-100 object-fit-cover rounded-3" src="./img/image3.jpg" alt="">
+                                <img class="w-100 object-fit-cover rounded-3" src="/img/image3.jpg" alt="">
                                 <div
                                     class="overlay px-3 w-100 h-100 position-absolute top-0 start-0 d-flex flex-column justify-content-between rounded-3">
                                     <div class="content animate__animated animate__slideInDown px-3">
                                         <a href="#" class="fs-3 fw-bold title">Meet Me</a>
                                         <p>Lorem ipsum dolor sit amet,Ea consequuntur</p>
                                     </div>
+                                    <div
+                                        class="list-icon d-flex justify-content-between w-25 mx-auto mb-4 animate__animated animate__slideInUp ">
                                     <div
                                         class="list-icon d-flex justify-content-between w-25 mx-auto mb-4 animate__animated animate__slideInUp ">
                                         <i class="fab fa-facebook    "></i>
@@ -813,11 +814,17 @@
             </div>
         </div>
     </footer>
+    <a href="#" class="backToTop cd-top js-cd-top px-3 py-2">
+        <i class="fas fa-level-up-alt    "></i>
+    </a>
     <!-- Bootstrap JavaScript Libraries -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+     <!-- back-to-top-->
+     <script src="./js/back_to_top/assets/js/util.js"></script>
+     <script src="./js/back_to_top/assets/js/main.js"></script>
 </body>
 
 </html>
