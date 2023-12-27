@@ -1,3 +1,44 @@
+/* header  */
+.heading h3 {
+    font-size: 22px;
+    color: #fb811e;
+    font-family: var(--font-volkhov);
+  }
+  
+  .heading h2 {
+    font-size: 40px;
+    line-height: 50px;
+    color: #060606;
+    font-family: var(--font-volkhov);
+    font-weight: 600;
+  }
+  
+  .heading p {
+    font-size: 17px;
+    color: #707070;
+    line-height: 27px;
+    margin: 16px 0 0 0;
+  }
+  
+  .heading button {
+    padding: 12px 30px;
+    border-radius: 30px;
+    background-color: #fb811e;
+    border: none;
+    transition: all 0.5s;
+  }
+  
+  .heading button:hover {
+    background-color: #009f4d;
+  }
+  
+  .heading button a {
+    text-decoration: none;
+    line-height: 26px;
+    color: white;
+    font-weight: 600;
+  }
+
 /* service */
 .service {
     /* display: none; */
