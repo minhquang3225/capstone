@@ -26,24 +26,87 @@
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container navbar_content">
+                <!-- header - left -->
+                <a class="navbar-brand navbar_left text-center" href="#">
+                    <i class="fa fa-leaf"></i>
+                    <h1>Farmstead</h1>
+                </a>
+                <!-- header - right -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar_right justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <!-- search -->
+                        <li class="nav-item">
+                            <form class="a">
+                                <label for="search">
+                                    <i class="fa-solid fa-magnifying-glass text-center"> </i>
+                                </label>
+                                <input type="text" id="search" />
+                            </form>
+                        </li>
+                        <!-- moon -->
+                        <li class="nav-item">
+                            <i class="gg-moon text-center"></i>
+                            <i class="gg-sun d-none"></i>
+                        </li>
+                        <!-- item 3 - menu -->
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link p-2 text-center  active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-2 text-center" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-2 text-center" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-2 text-center" href="#">Blog Posts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-2 text-center" href="#">Landing Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-2 text-center" href="#">404</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-2 text-center" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <section class="error-404">
         <div class="container">
             <div class="row">
                 <div class="404-error__wrapper col-10 col-lg-6">
-                    <svg class="mb-3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                        y="0px" viewBox="0 0 200 82.7" style="enable-background:new 0 0 200 82.7;" xml:space="preserve" >
+                    <svg class="mb-3" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 82.7"
+                        style="enable-background:new 0 0 200 82.7;" xml:space="preserve">
                         <g id="Calque_1">
                             <text id="XMLID_3_" transform="matrix(1.2187 0 0 1 13 75.6393)" class="st0 st1">4</text>
-                            <text id="XMLID_4_" transform="matrix(1.2187 0 0 1 133.0003 73.6393)" class="st0 st1">4</text>
+                            <text id="XMLID_4_" transform="matrix(1.2187 0 0 1 133.0003 73.6393)"
+                                class="st0 st1">4</text>
                         </g>
                         <g id="Calque_2">
                             <g>
                                 <path id="XMLID_11_" d="M81.8,29.2c4.1-5.7,10.7-9.4,18.3-9.4c6.3,0,12.1,2.7,16.1,6.9c0.6-0.4,1.1-0.7,1.7-1.1
-                               c-4.4-4.8-10.8-7.9-17.8-7.9c-8.3,0-15.6,4.2-20,10.6C80.7,28.5,81.3,28.8,81.8,29.2z"></path>
+                               c-4.4-4.8-10.8-7.9-17.8-7.9c-8.3,0-15.6,4.2-20,10.6C80.7,28.5,81.3,28.8,81.8,29.2z">
+                                </path>
                                 <path id="XMLID_2_" d="M118.1,53.7c-4,5.7-10.7,9.5-18.2,9.5c-6.3,0-12.1-2.6-16.2-6.8c-0.6,0.4-1.1,0.7-1.7,1.1
-                               c4.4,4.8,10.8,7.8,17.9,7.8c8.3,0,15.6-4.3,19.9-10.7C119.2,54.5,118.6,54.1,118.1,53.7z"></path>
-                                <animateTransform attributeName="transform" type="rotate" from="360 100 41.3" to="0 100 41.3"
-                                    dur="10s" repeatCount="indefinite"></animateTransform>
+                               c4.4,4.8,10.8,7.8,17.9,7.8c8.3,0,15.6-4.3,19.9-10.7C119.2,54.5,118.6,54.1,118.1,53.7z">
+                                </path>
+                                <animateTransform attributeName="transform" type="rotate" from="360 100 41.3"
+                                    to="0 100 41.3" dur="10s" repeatCount="indefinite"></animateTransform>
                             </g>
                             <g id="XMLID_6_">
                                 <g id="XMLID_18_">
@@ -68,7 +131,8 @@
                         <button class="btn border rounded-end-5 px-4 py-3" type="button" id="button-addon2"><i
                                 class="fas fa-search  "></i></button>
                     </form>
-                    <a href="/homepage.html" class="error-404__direct mb-5"><i class="fa fa-arrow-left me-4"></i>Back to home</a>
+                    <a href="/homepage.html" class="error-404__direct mb-5"><i class="fa fa-arrow-left me-4"></i>Back to
+                        home</a>
                 </div>
             </div>
         </div>

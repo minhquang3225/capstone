@@ -1,0 +1,69 @@
+/* service */
+.service {
+    /* display: none; */
+    padding: 100px 0;
+    background-image: url('../img/image1.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.service .title {
+    color: var(--title);
+}
+
+.service__content .breadcrumb a {}
+
+.service__content .breadcrumb:hover a {
+    color: var(--orange);
+    transition: all .5s ease;
+}
+/* contact */
+.contact{
+    margin-bottom: 100px;
+    /* display: none; */
+}
+.contact__left .sub{
+    color: var(--orange) !important;
+    margin-bottom: 5px;
+}
+.contact__left .title{
+    color: var(--title);
+}
+.contact__left .list__item i{
+    color: var(--orange);
+}
+.contact__left .list__item .right p{
+    color: var(--title);
+    text-transform: capitalize;
+    
+}
+.contact__left .list__item .right a{
+    transition: all .5s ease;
+}
+.contact__left .list__item .right a:hover{
+    color: var(--orange);
+}
+.contact__right{
+    padding-right: 150px;
+}
+.contact__right input{
+    transition: all .5s ease;
+}
+.contact__right input:focus {
+    border-color: var(--orange);
+}
+.contact__right button{
+    text-transform: uppercase;
+    background-color: var(--orange);
+    color: var(--white);
+    transition: all .5s ease;
+}
+.contact__right button:hover{
+    background-color: var(--green);
+}
+.map{
+    margin-bottom: 100px;
+    /* display: none; */
+}
